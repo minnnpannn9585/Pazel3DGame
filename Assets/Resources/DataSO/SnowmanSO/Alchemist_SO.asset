@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9adf14a00aa48404a90cd5da3a8e76cf, type: 3}
+  m_Name: Alchemist_SO
+  m_EditorClassIdentifier: 
+  type: 5
+  prefab: {fileID: 584477846658666777, guid: 32d87056a8adb44a8ae62a7c37a87805, type: 3}
+  icon: {fileID: 21300000, guid: 829f5a3f1dc61064ebb3979caa243acb, type: 3}
+  health: 100
+  summonDuration: 20
+  cooldown: 40
+  attack: 20
+  attackSpeed: 2
+  manaCost: 60
+  movementMode: 1
+  shieldBreakEfficiency: 2
+  basicAbilities: The alchemist will randomly generate stamina recovery items in
+    the vicinity.
+  advancedAbilities: When picking up the item, a trap that can hurt the enemy will
+    be generated.

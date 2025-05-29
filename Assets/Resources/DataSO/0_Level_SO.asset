@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00e974204fc7a47f7b9d4b980ce54754, type: 3}
+  m_Name: 0_Level_SO
+  m_EditorClassIdentifier: 
+  enemyCamps:
+  - id: EC105
+    isCleared: 0
+  - id: EC101
+    isCleared: 0
+  - id: EC104
+    isCleared: 0
+  - id: EC103
+    isCleared: 0
+  - id: EC102
+    isCleared: 0
+  - id: Enemy Camp
+    isCleared: 0
+  treasureChests:
+  - id: TC105
+    canOpen: 0
+    isOpened: 0
+  - id: Healer Reward
+    canOpen: 0
+    isOpened: 0
+  - id: TC101
+    canOpen: 0
+    isOpened: 0
+  dialogueEvents:
+  - id: HP102
+    isAppeared: 1
+    dialogueIndex: 0
+  - id: HP103
+    isAppeared: 1
+    dialogueIndex: 0
+  - id: Prisoner (1)
+    isAppeared: 1
+    dialogueIndex: 0
+  - id: Methus_real_103
+    isAppeared: 0
+    dialogueIndex: 0
+  - id: Flame Servant
+    isAppeared: 0
+    dialogueIndex: 0
+  - id: Methus
+    isAppeared: 1
+    dialogueIndex: 0
+  - id: Methus (1)
+    isAppeared: 0
+    dialogueIndex: 0
+  - id: Healing point
+    isAppeared: 1
+    dialogueIndex: 0
+  - id: Flameservant (1)
+    isAppeared: 1
+    dialogueIndex: 0
+  blockWalls:
+  - id: TP001
+    isVisible: 0
+  - id: Block Wall SV003
+    isVisible: 1
+  - id: Block Wall SV001
+    isVisible: 1
+  - id: Block Wall SV002
+    isVisible: 1
+  cutScenes:
+  - id: Timeline if02
+    isVisible: 1
+  sceneName: Initial Furnace
+  position: {x: 3.999999, y: 0, z: -61}
+  respawnAtThisPosition: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 781f08bfd780649b8996fe0c98e336cb, type: 3}
+  m_Name: Game_SO
+  m_EditorClassIdentifier: 
+  gameDataList:
+  - playerSo: {fileID: 11400000, guid: 83881c111acec4a60b38375477f40ea0, type: 2}
+    levelSo: {fileID: 11400000, guid: 82c732ee348014b54897b9e73b263128, type: 2}
+  - playerSo: {fileID: 11400000, guid: 8cd6928c6455b4aba83fcf8287f0d306, type: 2}
+    levelSo: {fileID: 11400000, guid: 3681620e6972842b5ae1f57b0d8f156c, type: 2}
+  - playerSo: {fileID: 11400000, guid: 8cd6928c6455b4aba83fcf8287f0d306, type: 2}
+    levelSo: {fileID: 11400000, guid: 3681620e6972842b5ae1f57b0d8f156c, type: 2}
+  currentGameData:
+    playerSo: {fileID: 11400000, guid: 83881c111acec4a60b38375477f40ea0, type: 2}
+    levelSo: {fileID: 11400000, guid: 82c732ee348014b54897b9e73b263128, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9adf14a00aa48404a90cd5da3a8e76cf, type: 3}
+  m_Name: Marksman_SO
+  m_EditorClassIdentifier: 
+  type: 4
+  prefab: {fileID: 584477846658666777, guid: 7f96c4517322340c1ad265654d924b0d, type: 3}
+  icon: {fileID: 21300000, guid: c66ee1bab42da0143b172eabf9a4602b, type: 3}
+  health: 100
+  summonDuration: 20
+  cooldown: 30
+  attack: 10
+  attackSpeed: 0.5
+  manaCost: 50
+  movementMode: 2
+  shieldBreakEfficiency: 1
+  basicAbilities: The Marksman will continuously carry out ranged attacks on nearby
+    enemies.
+  advancedAbilities: Enemies hit will be marked, and player attacks can consume the
+    mark to inflict substantial damage.

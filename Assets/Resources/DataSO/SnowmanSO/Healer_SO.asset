@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9adf14a00aa48404a90cd5da3a8e76cf, type: 3}
+  m_Name: Healer_SO
+  m_EditorClassIdentifier: 
+  type: 2
+  prefab: {fileID: 584477846658666777, guid: ca458a0817aa6854f98dc41e92160ab9, type: 3}
+  icon: {fileID: 21300000, guid: 374d729eb6469f44fa7419ffb651ffa2, type: 3}
+  health: 100
+  summonDuration: 20
+  cooldown: 60
+  attack: 5
+  attackSpeed: 1
+  manaCost: 60
+  movementMode: 1
+  shieldBreakEfficiency: 0
+  basicAbilities: Follows the player and continuously heals the player within a certain
+    range.
+  advancedAbilities: When the healing amount overflows, the player can generate a
+    field of ice spikes that deal damage and slow enemies. The overflow of healing
+    will be reset to zero after the ice spikes are released or the player leaves
+    the healing range.
