@@ -1,0 +1,427 @@
+fileFormatVersion: 2
+guid: a2b8e72e8b40f0e4da5f043532c433b6
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Cloak
+    second: {fileID: 2100000, guid: 9aa6301cd30d0fe43b564f29c4364da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Cloak Hood
+    second: {fileID: 2100000, guid: 9aa6301cd30d0fe43b564f29c4364da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Epelet
+    second: {fileID: 2100000, guid: 2def709bef1931845b923fbeeaed1a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Hair
+    second: {fileID: 2100000, guid: 9aa6301cd30d0fe43b564f29c4364da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Red
+    second: {fileID: 2100000, guid: 9aa6301cd30d0fe43b564f29c4364da6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Methus Skin
+    second: {fileID: 2100000, guid: 9aa6301cd30d0fe43b564f29c4364da6, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Methus_HandRaise
+      takeName: Methus_HandRaise
+      internalID: -5431577071229973204
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Methus_HandLower
+      takeName: Methus_HandLower
+      internalID: 3569076112480310244
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 'Methus_SittingIdle '
+      takeName: 'Methus_SittingIdle '
+      internalID: -3101614171333660772
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Methus_StandingIdle
+      takeName: Methus_StandingIdle
+      internalID: -6694171340345895930
+      firstFrame: 0
+      lastFrame: 44
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Methus_Animations3(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cloak
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hand_L
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hands.001
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Epelet L
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Epelet R
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Head
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mask
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hood
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Hair
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: rig
+      parentName: Methus_Animations3(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: root
+      parentName: rig
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999989, z: 0.9999989}
+    - name: DEF-spine
+      parentName: root
+      position: {x: 5.405733e-18, y: 0.04973542, z: 0.4825028}
+      rotation: {x: 0.79045546, y: -0, z: -0, w: 0.6125195}
+      scale: {x: 1, y: 1.0000015, z: 1.0000014}
+    - name: DEF-spine.001
+      parentName: DEF-spine
+      position: {x: -4.135903e-25, y: 0.06961831, z: 0.0000000015352271}
+      rotation: {x: -0.06447649, y: -0, z: -0, w: 0.99791926}
+      scale: {x: 1.0000001, y: 0.99999905, z: 0.9999991}
+    - name: DEF-spine.002
+      parentName: DEF-spine.001
+      position: {x: -4.889703e-25, y: 0.06249147, z: 0.0000000018626451}
+      rotation: {x: -0.07746407, y: -0, z: -0, w: 0.99699515}
+      scale: {x: 0.9999999, y: 1.0000007, z: 0.9999997}
+    - name: DEF-spine.003
+      parentName: DEF-spine.002
+      position: {x: -0, y: 0.07907097, z: 0.0000000069849193}
+      rotation: {x: 0.0016271174, y: -0, z: -0, w: 0.9999987}
+      scale: {x: 1, y: 0.9999996, z: 0.99999994}
+    - name: DEF-spine.004
+      parentName: DEF-spine.003
+      position: {x: -0, y: 0.08807677, z: 0.000000008381903}
+      rotation: {x: 0.3783764, y: -0.000000110346285, z: -0.000000045105953, w: 0.9256519}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: DEF-neck
+      parentName: DEF-spine.004
+      position: {x: 6.523277e-15, y: 0.016415287, z: 0.000000007450581}
+      rotation: {x: -0.22907041, y: -2.842171e-14, z: 0.000000054614617, w: 0.9734099}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.000001}
+    - name: DEF-head
+      parentName: DEF-neck
+      position: {x: 1.4755365e-15, y: 0.019014388, z: -0.0000000037252903}
+      rotation: {x: -0.14215411, y: -3.7565288e-14, z: 0.00000003389216, w: 0.9898446}
+      scale: {x: 1.0000002, y: 0.9999988, z: 1.0000001}
+    - name: DEF-shoulder.L
+      parentName: DEF-spine.003
+      position: {x: -0.008369595, y: 0.06275878, z: 0.035788443}
+      rotation: {x: -0.53997177, y: 0.4179835, z: 0.405239, w: 0.6078666}
+      scale: {x: 1.0000019, y: 1.0000017, z: 1.0000026}
+    - name: DEF-upper_arm.L
+      parentName: DEF-shoulder.L
+      position: {x: -0.0012646262, y: 0.09131856, z: -0.010245625}
+      rotation: {x: 0.08675944, y: -0.7890493, z: 0.15006347, w: 0.5893682}
+      scale: {x: 0.98429966, y: 1.0321568, z: 0.98429805}
+    - name: DEF-forearm.L
+      parentName: DEF-upper_arm.L
+      position: {x: 0.000000013038516, y: 0.18886782, z: 0.000000004656613}
+      rotation: {x: 0.03551294, y: 0.001571357, z: -0.01914025, w: 0.9991847}
+      scale: {x: 1.0005258, y: 1.0070478, z: 0.99756044}
+    - name: DEF-hand.L
+      parentName: DEF-forearm.L
+      position: {x: 0.0000000041909516, y: 0.16036095, z: -0.000000005820766}
+      rotation: {x: -0.04279515, y: -0.0007991587, z: -0.018651191, w: 0.99890953}
+      scale: {x: 1.0173095, y: 0.95447344, z: 1.0339669}
+    - name: DEF-shoulder.R
+      parentName: DEF-spine.003
+      position: {x: 0.008369595, y: 0.06275878, z: 0.035788443}
+      rotation: {x: -0.53997177, y: -0.4179835, z: -0.405239, w: 0.6078666}
+      scale: {x: 1.0000019, y: 1.0000017, z: 1.0000026}
+    - name: DEF-upper_arm.R
+      parentName: DEF-shoulder.R
+      position: {x: 0.0012646262, y: 0.09131856, z: -0.010245625}
+      rotation: {x: 0.08675944, y: 0.7890493, z: -0.15006347, w: 0.5893682}
+      scale: {x: 0.9842989, y: 1.0321568, z: 0.98429775}
+    - name: DEF-forearm.R
+      parentName: DEF-upper_arm.R
+      position: {x: -0.000000013038516, y: 0.18886782, z: 0.000000004656613}
+      rotation: {x: 0.035512872, y: -0.0015713272, z: 0.019140383, w: 0.9991847}
+      scale: {x: 0.99723524, y: 1.0070463, z: 0.9956826}
+    - name: DEF-hand.R
+      parentName: DEF-forearm.R
+      position: {x: -0.0000000041909516, y: 0.16036095, z: -0.000000005820766}
+      rotation: {x: -0.04279515, y: 0.0007991587, z: 0.018651191, w: 0.99890953}
+      scale: {x: 1.0197887, y: 0.95259213, z: 1.0316771}
+    - name: DEF-thigh.L
+      parentName: DEF-spine
+      position: {x: -0.11841509, y: 0.0017059627, z: 0.019775003}
+      rotation: {x: 0.9755769, y: -0.0027741715, z: 0.13766043, w: 0.17114824}
+      scale: {x: 0.9832946, y: 1.0342674, z: 0.98329455}
+    - name: DEF-shin.L
+      parentName: DEF-thigh.L
+      position: {x: 0.000000004656613, y: 0.2140267, z: -0.0000000013969839}
+      rotation: {x: 0.09675613, y: -0.00000035569246, z: 0.000000067055225, w: 0.99530816}
+      scale: {x: 0.9994891, y: 1.0028589, z: 0.99757403}
+    - name: DEF-foot.L
+      parentName: DEF-shin.L
+      position: {x: -0.0000000027939677, y: 0.20773724, z: -0.000000011175871}
+      rotation: {x: -0.52234036, y: -0.116985455, z: -0.072611585, w: 0.8415476}
+      scale: {x: 1.0170673, y: 0.9438841, z: 1.0416058}
+    - name: DEF-toe.L
+      parentName: DEF-foot.L
+      position: {x: 0.00000001090757, y: 0.05911106, z: 0.00000001840975}
+      rotation: {x: -0.00000008195639, y: 0.9612486, z: -0.27568316, w: -0.000000074505806}
+      scale: {x: 1.0004703, y: 1.242697, z: 0.81267744}
+    - name: DEF-thigh.R
+      parentName: DEF-spine
+      position: {x: 0.11841508, y: 0.0017059701, z: 0.019775009}
+      rotation: {x: 0.9755769, y: 0.0027741715, z: -0.13766043, w: 0.17114824}
+      scale: {x: 0.9832945, y: 1.0342667, z: 0.98329455}
+    - name: DEF-shin.R
+      parentName: DEF-thigh.R
+      position: {x: -0.000000003085006, y: 0.21402669, z: 0.0000000037252903}
+      rotation: {x: 0.09675613, y: 0.00000035569246, z: -0.000000067055225, w: 0.99530816}
+      scale: {x: 0.9994893, y: 1.002859, z: 0.99757326}
+    - name: DEF-foot.R
+      parentName: DEF-shin.R
+      position: {x: 0.0000000121071935, y: 0.20773724, z: 0}
+      rotation: {x: -0.52234036, y: 0.116985455, z: 0.072611585, w: 0.8415476}
+      scale: {x: 1.017068, y: 0.9438831, z: 1.0416042}
+    - name: DEF-toe.R
+      parentName: DEF-foot.R
+      position: {x: -0.000000010933036, y: 0.059111044, z: -0.0000000039383607}
+      rotation: {x: 0.00000008195639, y: 0.9612486, z: -0.27568316, w: 0.000000074505806}
+      scale: {x: 1.0004697, y: 1.2426978, z: 0.81267804}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
